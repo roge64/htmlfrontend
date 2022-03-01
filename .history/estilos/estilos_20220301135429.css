@@ -1,0 +1,27 @@
+*{
+    border: 0 ;
+    margin: 0 ;
+    padding: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+#container{
+    background-color:rgb(56, 56, 22);
+    height: 1050px;
+    width: 750px;
+
+}
+
+header{
+    background-color:antiquewhite;
+    width: 750px;
+    height: 20px;
+
+}
+
+#banner{
+
+}

@@ -1,0 +1,42 @@
+*{
+    border: 0 ;
+    margin: 0 ;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(247, 245, 243);
+}
+
+#container{
+    background-color:rgb(56, 56, 22);
+    height: 1050px;
+    width: 750px;
+    
+}
+
+header{
+    background-color:antiquewhite;
+    width: 750px;
+    height: 20px;
+
+}
+
+#banner{
+    background-color:black ;
+    width: 750px;
+    height: 200px;
+}
+
+
+#noticias{
+    background-color: grey;
+    width: 750px;
+    height: 300px;
+}
+
+#tienda{
+    background-color: grey;
+    width: 750px;
+    height: 300px;
+}
