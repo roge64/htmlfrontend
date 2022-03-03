@@ -1,0 +1,160 @@
+*{
+    border: 0 ;
+    margin: 0 ;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:black;
+background-image:
+radial-gradient(circle at 100% 150%, black 24%, #101010 24%, #101010 28%, black 28%, black 36%, #101010 36%, #101010 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, black 24%, #101010 24%, #101010 28%, black 28%, black 35%, #101010 36%, #101010 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, #101010 10%, black 10%, black 23%, #101010 23%, #101010 30%, black 30%, black 43%, #101010 43%, #101010 50%, black 50%, black 63%, #101010 63%, #101010 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, #101010 5%, black 5%, black 15%, #101010 15%, #101010 20%, black 20%, black 29%, #101010 29%, #101010 34%, black 34%, black 44%, #101010 44%, #101010 49%, transparent 49%, transparent),
+radial-gradient(circle at 0    50%, #101010 5%, black 5%, black 15%, #101010 15%, #101010 20%, black 20%, black 29%, #101010 29%, #101010 34%, black 34%, black 44%, #101010 44%, #101010 48%, transparent 49%, transparent);
+background-size: 50px 31px;
+/*     background-image: url("/img/papyrus-dark.png"); */
+}
+
+#container, header, #banner, #noticias, #tienda, footer{
+    /* background-color:rgb(255, 255, 255); */
+    background-color:black;
+background-image:
+radial-gradient(circle at 100% 150%, black 24%, #101010 24%, #101010 28%, black 28%, black 36%, #101010 36%, #101010 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, black 24%, #101010 24%, #101010 28%, black 28%, black 35%, #101010 36%, #101010 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, #101010 10%, black 10%, black 23%, #101010 23%, #101010 30%, black 30%, black 43%, #101010 43%, #101010 50%, black 50%, black 63%, #101010 63%, #101010 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, #101010 5%, black 5%, black 15%, #101010 15%, #101010 20%, black 20%, black 29%, #101010 29%, #101010 34%, black 34%, black 44%, #101010 44%, #101010 49%, transparent 49%, transparent),
+radial-gradient(circle at 0    50%, #101010 5%, black 5%, black 15%, #101010 15%, #101010 20%, black 20%, black 29%, #101010 29%, #101010 34%, black 34%, black 44%, #101010 44%, #101010 48%, transparent 49%, transparent);
+background-size: 50px 31px;
+
+    height: 1100px;
+    width: 800px;
+
+}
+
+header{
+/*     background-color:antiquewhite;
+ */    
+    height: 20px;
+
+}
+
+#banner{
+    background-color:#080808;
+/*     background-color:rgb(25, 25, 25); */
+    height: 200px;
+}
+
+
+#noticias{
+/*     background-color: antiquewhite;
+ */    
+    height: 300px;
+}
+
+#tienda{
+/*     background-color: grey; */
+/* background-color:black;
+background-image:
+radial-gradient(circle at 100% 150%, black 24%, #101010 24%, #101010 28%, black 28%, black 36%, #101010 36%, #101010 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, black 24%, #101010 24%, #101010 28%, black 28%, black 35%, #101010 36%, #101010 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, #101010 10%, black 10%, black 23%, #101010 23%, #101010 30%, black 30%, black 43%, #101010 43%, #101010 50%, black 50%, black 63%, #101010 63%, #101010 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, #101010 5%, black 5%, black 15%, #101010 15%, #101010 20%, black 20%, black 29%, #101010 29%, #101010 34%, black 34%, black 44%, #101010 44%, #101010 49%, transparent 49%, transparent),
+radial-gradient(circle at 0    50%, #101010 5%, black 5%, black 15%, #101010 15%, #101010 20%, black 20%, black 29%, #101010 29%, #101010 34%, black 34%, black 44%, #101010 44%, #101010 48%, transparent 49%, transparent);
+background-size: 50px 31px; */
+
+    height: 300px;
+    width: 780px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#marcas{
+/*     background-color:rgb(58, 41, 18); */
+    height: 205px;
+}
+
+
+footer{
+    background-color:antiquewhite;
+    text-align: center;
+    height: 20px;
+}
+
+#banner #banner1{
+    background-color: rgb(180, 134, 73);
+    width: 790px;
+    height: 110px;
+    display: inline-block;
+    vertical-align: center; 
+    margin: 5px 5px;
+
+}
+
+#noticias #news1{
+    background-color: rgb(41, 38, 34);
+    width: 790px;
+    height: 285px;
+    display: inline-block;
+    vertical-align: center; 
+    margin: 5px 5px;
+
+}
+
+
+#tienda #cake1{
+    background: rgb(109, 175, 33);
+    width: 240px;
+    height: 285px;
+    display: inline-block;
+    vertical-align: top; 
+    margin: 5px 8px;
+}
+
+#tienda #cake2{
+    background: rgb(41, 23, 3);
+    width: 240px;
+    height: 285px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 10px; 
+}
+
+#tienda #cake3{
+    background: rgb(175, 169, 112);
+    width: 240px;
+    height: 285px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 5px; 
+}
+
+#marcas #mark1{
+    background: rgb(109, 175, 33);
+    width: 375px;
+    height: 185px;
+    display: inline-block;
+    vertical-align: center; 
+    margin: 10px 12px;
+}
+
+#marcas #mark2{
+    background: rgb(109, 175, 33);
+    width: 375px;
+    height: 185px;
+    display: inline-block;
+    vertical-align: center; 
+    margin: 10px 10px;
+}
+
+#footer #footer1{
+    background-color:antiquewhite;
+    text-align: center;
+    height: 20px;
+}

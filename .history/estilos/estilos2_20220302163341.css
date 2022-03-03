@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:black;
+    background-image:
+    radial-gradient(circle at 100% 150%, black 24%, #101010 24%, #101010 28%, black 28%, black 36%, #101010 36%, #101010 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, black 24%, #101010 24%, #101010 28%, black 28%, black 35%, #101010 36%, #101010 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, #101010 10%, black 10%, black 23%, #101010 23%, #101010 30%, black 30%, black 43%, #101010 43%, #101010 50%, black 50%, black 63%, #101010 63%, #101010 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, #101010 5%, black 5%, black 15%, #101010 15%, #101010 20%, black 20%, black 29%, #101010 29%, #101010 34%, black 34%, black 44%, #101010 44%, #101010 49%, transparent 49%, transparent),
+    radial-gradient(circle at 0    50%, #101010 5%, black 5%, black 15%, #101010 15%, #101010 20%, black 20%, black 29%, #101010 29%, #101010 34%, black 34%, black 44%, #101010 44%, #101010 48%, transparent 49%, transparent);
+    background-size: 50px 31px;
+}
+
+a {    
+    text-decoration: none;
+}
+
+header {
+    grid-area: header;
+}
+.main {
+    grid-area: main;
+}
+.sidebar {
+    grid-area: sidebar;
+}
+footer {
+    grid-area: footer;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+header nav {
+    justify-self: start;
+}
+header button {
+    justify-self: end;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    align-items: end; 
+}
+
+
+
+.container {
+    display: grid;   
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 
+        "header header"
+        "main sidebar"
+        "footer footer";
+    grid-gap: 40px;
+}
+
+header {
+   height: 150px;  
+   background-color: #FF4945;
+}
+
+.main {
+   height: 300px;
+  color: white;
+   background-color: #FFA931;
+}
+
+.sidebar {
+   height: 300px;
+  color: white;
+    background-color: #9B0579;
+}
+
+footer {
+   height: 100px;
+   color: white;
+   background-color: #00778F;
+   text-align: center;
+}
+/* Page Layout */
+

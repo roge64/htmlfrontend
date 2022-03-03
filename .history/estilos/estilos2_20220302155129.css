@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {    
+    text-decoration: none;
+}
+
+.container {
+    display: grid;   
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: 
+        "header header"
+        "main sidebar"
+        "footer footer";
+    grid-gap: 40px;
+}
+
+header {
+   height: 150px;  
+   background-color: #FF4945;
+}
+
+.main {
+   height: 300px;
+  color: white;
+   background-color: #FFA931;
+}
+
+.sidebar {
+   height: 300px;
+  color: white;
+    background-color: #9B0579;
+}
+
+footer {
+   height: 100px;
+   color: white;
+   background-color: #00778F;
+   text-align: center;
+}
+/* Page Layout */
+

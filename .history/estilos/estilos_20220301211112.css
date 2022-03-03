@@ -1,0 +1,52 @@
+*{
+    border: 0 ;
+    margin: 0 ;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+#container, header, #banner, #noticias, #tienda,footer{
+    background-color:rgb(56, 56, 22);
+    height: 1050px;
+    width: 800px;
+    
+}
+
+header{
+    background-color:antiquewhite;
+    
+    height: 20px;
+
+}
+
+#banner{
+    background-color:rgb(128, 119, 119) ;
+    
+    height: 200px;
+}
+
+
+#noticias{
+    background-color: lightgray;
+    
+    height: 300px;
+}
+
+#tienda{
+    background-color: grey;
+    
+    height: 300px;
+}
+
+footer{
+    background-color:antiquewhite;
+    
+    height: 20px;
+}
