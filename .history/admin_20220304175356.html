@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Example Comment</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="estilos/adminstyle.css">
+</head>
+
+<body>
+	<div class="container">
+	<div class="comment-card">
+		<div class="card-content">
+			<div class="comment-text-container">
+				<div class="comment-content">
+					<span class="comment-text">
+            I really like your range of cakes, particularly <span class="entity brand">Blueberry Moka</span>, and the website is easy to use. Delivery was fast, but little expensive compared to bakeries available at<span class="entity country">Unknown</span>.</span>
+            <span class="comment-timestamp">11:17 - 4 March 2022</span>
+				</div>
+			</div>
+			<ul class="comment-properties">
+        <dl>
+            <dt>BM flavor</dt><dd>11</dd>
+            <dt>CP flavor</dt><dd>5</dd>
+            <dt>MP flavor</dt><dd>8</dd>
+            <dt>Happy Birthday deco</dt><dd>35</dd>
+            <dt>Baby Shower deco</dt><dd>7</dd>
+            <dt>Happy Anniversary deco</dt><dd>16</dd>
+            <dt>Get Well Soon deco</dt><dd>13</dd>
+            <dt></dt><dd></dd>
+            <dt>NPS</dt><dd>8</dd>
+            <dt>Order count</dt><dd>3</dd>
+            <dt>NPS</dt><dd>8</dd>
+          </dl>
+      </ul>
+			<div class="labels">
+        <!-- Clicking these buttons would remove the label in the webapp, but that isn't implemented here -->
+          <button class="label positive">Products > Range</button>
+          <button class="label positive">Website</button>
+          <button class="label positive">Delivery > Speed</button>
+          <button class="label negative">Delivery > Price</button>
+        <!-- Entering a new label name here would add it to the list, but that isn't implemented -->
+          <form class="add-label">
+            <input type="text" class="add-label-input" placeholder="New label name" />
+            <button type="submit" class="add-label-button">Add</button>
+          </form>
+        </div>
+    </div>
+  </div>
+  <footer>
+    <p style="color:#b49760"> Copyright &copy; 2021-<script>document.write(new Date().getFullYear())</script> Rogelio Valdés All Rights Reserved</p>
+    <article id="footer1"></article>
+</footer>
+</body>
+
+</html>

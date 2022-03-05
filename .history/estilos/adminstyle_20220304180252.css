@@ -1,0 +1,213 @@
+html {
+    font: normal 62.5%/1.6rem Arial, Helvetica, sans-serif;
+    /*Will now use REMs as font-size unit. 1rem = 16px as a root value, so 62.5% of this equates 10px to 62.5%*/
+    /*I am using REMS, as pixels do not scale proportionally when zoomed in or out*/
+  }
+  dl {
+    border-left: 0.2rem #fff solid;
+    border-top: 0.2rem #fff solid;
+  }
+  dt {
+    font-weight: 900; /*bold*/
+  }
+  /*Shared Properties*/
+  dt,
+  dd {
+    border-right: 0.2rem #fff solid;
+    border-bottom: 0.2rem #fff solid;
+    flex-direction: column;
+    float: left;
+    justify-content: center;
+    padding: 1rem;
+    width: 47%;
+  }
+  dl,
+  dt,
+  dd {
+    margin: 0;
+  }
+  .container {
+    margin: 5rem auto;
+    max-width: 80rem;
+  }
+  .comment-content,
+  .comment-properties,
+  .labels {
+    background: #ccdedc;
+    border: 0.4rem #fff solid;
+    display: flex;
+    font-size: 2.2rem; /*22px*/
+    line-height: 3rem;
+    padding: 2rem;
+  }
+  .comment-text {
+    border-right: 0.4rem #fff solid;
+    height: 22rem;
+    min-height: 18rem;
+    overflow-wrap: break-word;
+    overflow: scroll;
+    overflow-y: scroll;
+    padding: 0.2rem 1rem 0 0;
+    width: 76%;
+  }
+  .comment-text::before {
+    content: open-quote;
+  }
+  .comment-text::after {
+    content: close-quote;
+  }
+  .comment-text::before,
+  .comment-text::after {
+    font-size: 5rem;
+    position: relative;
+    top: 1rem;
+  }
+  .comment-timestamp {
+    background: #337aec;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 900;
+    font-size: 1.4rem;
+    height: 3rem;
+    justify-content: center;
+    margin-left: 2rem;
+    text-align: center;
+    width: 14rem;
+  }
+  .comment-card,
+  .comment-timestamp {
+    border: 0.2rem #000 solid;
+  }
+  .entity {
+    background: #f1800a;
+    border: 0.2rem #fff solid;
+    color: #fff;
+    font: italic 900 2rem/1.6rem Arial, Helvetica, sans-serif;
+    margin: 0 0.4rem;
+  }
+  .comment-timestamp,
+  .entity {
+    padding: 0 1rem;
+  }
+  button,
+  .comment-content,
+  .entity,
+  .comment-timestamp,
+  .comment-properties,
+  .labels,
+  .add-label-button:after,
+  .positive::after,
+  .negative::after {
+    border-radius: 1rem;
+  }
+  .comment-properties {
+    margin: 0.2rem 0;
+  }
+  .labels {
+    height: 10rem;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(2, min-content);
+    grid-row-gap: 1rem;
+  }
+  .labels > button {
+    height: 5rem;
+  }
+  .labels > button:last-of-type {
+    margin-right: 0;
+  }
+  button {
+    background: #337aec;
+    border: 0.2rem #000 solid;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-right: 1rem;
+    padding: 1.4rem 0.4rem;
+    text-align: left;
+  }
+  button:hover,
+  button:active,
+  button:focus {
+    color: #fff;
+    border: 0.2rem #fff solid;
+  }
+  .add-label-button {
+    height: 4rem;
+    padding: 1rem 0.4rem 1rem 1rem;
+  }
+  .add-label-button:after,
+  .positive::after {
+    content: "+";
+    font-size: 3rem;
+  }
+  .add-label-button,
+  .positive::after {
+    background: #6ddf76;
+  }
+  .negative::after {
+    background: #f01d1d;
+    content: "-";
+    font-size: 2.6rem;
+  }
+  .add-label-button:after,
+  .positive::after,
+  .negative::after {
+    float: right;
+    height: 3rem;
+    position: relative;
+    right: 0.1rem;
+    text-align: center;
+    top: -0.8rem;
+    width: 3rem;
+  }
+  .positive::after,
+  .negative::after {
+    border: 0.2rem #000 solid;
+  }
+  .positive:hover::after,
+  .positive:focus::after {
+    background: #92dc98;
+  }
+  .negative:hover::after,
+  .negative:focus::after {
+    background: #ef5d5d;
+  }
+  .positive:hover::after,
+  .positive:focus::after,
+  .negative:hover::after,
+  .negative:focus::after {
+    border: 0.2rem #fff solid;
+  }
+  .add-label {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+  .add-label input,
+  .add-label button {
+    display: inline-block;
+  }
+  input[type="text"] {
+    border: 0.2rem #ccc solid;
+    margin: 0.5rem 0.1rem 0.3rem 0;
+    min-width: 24rem;
+    padding: 0.3rem 0 0.3rem 0.3rem;
+    width: 24rem;
+  }
+  input[type="text"]:focus,
+  input[type="text"]:hover {
+    border: 0.2rem #f1800a solid;
+    box-shadow: 0 0 0.5rem 0.1rem #f1800a;
+  }
+  button,
+  input {
+    outline: none;
+  }
+
+  footer{
+      font-family: Geneva;
+      font-size: 50%;
+      text-align: center;
+  }
